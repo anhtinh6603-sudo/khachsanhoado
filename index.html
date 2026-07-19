@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khách Sạn Hoa Đô | Nghi Xuân, Hà Tĩnh</title>
+<meta name="description" content="Khách Sạn Hoa Đô - Phòng nghỉ bình dân, sạch sẽ, gần Đền Củi và Đền Ông Hoàng Mười, Nghi Xuân, Hà Tĩnh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== Top info bar ===== -->
+<div class="infobar">
+  <div class="infobar-inner">
+    <div class="infobar-contacts">
+      <a href="tel:+84977600599">📞 0977 600 599</a>
+      <a href="tel:+84979123775">📞 0979 123 775</a>
+      <a href="mailto:anhtinh6603@gmail.com">✉️ anhtinh6603@gmail.com</a>
+    </div>
+    <a class="infobar-fb" href="https://www.facebook.com/profile.php?id=100083118018930" target="_blank" rel="noopener">Facebook Fanpage</a>
+  </div>
+</div>
+
+<!-- ===== Header / Nav ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-inner">
+    <a class="logo" href="#home">
+      <span class="logo-mark">HĐ</span>
+      <span class="logo-text">
+        <span class="logo-title">HOA ĐÔ</span>
+        <span class="logo-sub">HOTEL</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="active">Trang Chủ</a>
+      <a href="#about">Giới Thiệu</a>
+      <a href="#rooms">Phòng Nghỉ</a>
+      <a href="#services">Dịch Vụ</a>
+      <a href="#gallery">Thư Viện Ảnh</a>
+      <a href="#location">Vị Trí</a>
+      <a href="#contact">Liên Hệ</a>
+    </nav>
+
+    <a href="tel:+84977600599" class="book-now">Đặt Phòng Ngay</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Mở menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Chào mừng đến với</p>
+    <h1>Khách Sạn Hoa Đô</h1>
+    <p class="hero-sub">Phòng nghỉ bình dân, sạch sẽ &middot; Gần Đền Củi &amp; Đền Ông Hoàng Mười &middot; Nghi Xuân, Hà Tĩnh</p>
+
+    <form class="booking-bar" id="bookingBar">
+      <div class="bf-field">
+        <label>Nhận Phòng</label>
+        <input type="date" id="checkIn" required>
+      </div>
+      <div class="bf-field">
+        <label>Trả Phòng</label>
+        <input type="date" id="checkOut" required>
+      </div>
+      <div class="bf-field bf-stepper">
+        <label>Người Lớn</label>
+        <div class="stepper" data-target="adults">
+          <button type="button" class="step-btn" data-action="dec">−</button>
+          <span id="adults">1</span>
+          <button type="button" class="step-btn" data-action="inc">+</button>
+        </div>
+      </div>
+      <div class="bf-field bf-stepper">
+        <label>Trẻ Em</label>
+        <div class="stepper" data-target="children">
+          <button type="button" class="step-btn" data-action="dec">−</button>
+          <span id="children">0</span>
+          <button type="button" class="step-btn" data-action="inc">+</button>
+        </div>
+      </div>
+      <button type="submit" class="bf-submit">Đặt Phòng</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<section class="about" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-media">
+      <div class="photo tall" data-label="Mặt tiền Khách Sạn Hoa Đô">
+        <img class="photo-img" src="images/exterior-day.jpg" alt="Mặt tiền Khách Sạn Hoa Đô">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+    </div>
+    <div class="about-text">
+      <p class="eyebrow">Về Chúng Tôi</p>
+      <h2>Điểm dừng chân thoải mái tại Nghi Xuân</h2>
+      <p>Khách Sạn Hoa Đô tọa lạc tại Khối 1, Thị trấn Xuân An, Nghi Xuân, Hà Tĩnh — vị trí thuận tiện, gần Đền Củi và Đền Ông Hoàng Mười, dễ dàng di chuyển đến TP. Vinh (Nghệ An) và trung tâm Hà Tĩnh.</p>
+      <p>Chúng tôi luôn sẵn sàng phục vụ khách công tác, du lịch, gia đình hoặc khách ghé nghỉ trên hành trình với phòng sạch gọn, phục vụ thân thiện và chi phí hợp lý.</p>
+      <ul class="about-points">
+        <li>✔ Phòng nghỉ bình dân, sạch sẽ, tiện nghi cơ bản đầy đủ</li>
+        <li>✔ Gần Đền Củi &amp; Đền Ông Hoàng Mười</li>
+        <li>✔ Vị trí thuận tiện đi TP. Vinh &amp; trung tâm Hà Tĩnh</li>
+        <li>✔ Hỗ trợ đặt phòng online, phục vụ nhiệt tình</li>
+      </ul>
+      <a href="#contact" class="btn-outline">Liên Hệ Đặt Phòng</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Rooms ===== -->
+<section class="rooms" id="rooms">
+  <div class="section-inner">
+    <p class="eyebrow center">Phòng Nghỉ</p>
+    <h2 class="center">Các Loại Phòng</h2>
+    <p class="section-desc center">Phòng sạch gọn, giá bình dân — liên hệ trực tiếp để biết tình trạng phòng trống và giá tốt nhất.</p>
+
+    <div class="room-grid">
+      <article class="room-card">
+        <div class="photo" data-label="Phòng Đơn">
+          <img class="photo-img" src="images/room-single.jpg" alt="Phòng Đơn - Khách Sạn Hoa Đô">
+          <span class="ph-icon">🖼</span><span class="ph-label"></span>
+        </div>
+        <div class="room-body">
+          <h3>Phòng Đơn</h3>
+          <p>Phù hợp cho khách đi công tác hoặc nghỉ ngắn ngày, đầy đủ tiện nghi cơ bản.</p>
+          <a href="tel:+84977600599" class="room-link">Liên hệ đặt phòng →</a>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <div class="photo" data-label="Phòng Đôi">
+          <img class="photo-img" src="images/room-double.jpg" alt="Phòng Đôi - Khách Sạn Hoa Đô">
+          <span class="ph-icon">🖼</span><span class="ph-label"></span>
+        </div>
+        <div class="room-body">
+          <h3>Phòng Đôi</h3>
+          <p>Không gian rộng rãi hơn, thích hợp cho cặp đôi hoặc bạn bè đi cùng nhau.</p>
+          <a href="tel:+84977600599" class="room-link">Liên hệ đặt phòng →</a>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <div class="photo" data-label="Phòng Gia Đình">
+          <img class="photo-img" src="images/room-twin1.jpg" alt="Phòng Gia Đình - Khách Sạn Hoa Đô">
+          <span class="ph-icon">🖼</span><span class="ph-label"></span>
+        </div>
+        <div class="room-body">
+          <h3>Phòng Gia Đình</h3>
+          <p>Diện tích lớn, phù hợp cho gia đình có trẻ nhỏ hoặc nhóm đông người.</p>
+          <a href="tel:+84977600599" class="room-link">Liên hệ đặt phòng →</a>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <div class="photo" data-label="Phòng Cao Cấp">
+          <img class="photo-img" src="images/room-twin2.jpg" alt="Phòng Cao Cấp - Khách Sạn Hoa Đô">
+          <span class="ph-icon">🖼</span><span class="ph-label"></span>
+        </div>
+        <div class="room-body">
+          <h3>Phòng Cao Cấp</h3>
+          <p>Tiện nghi đầy đủ hơn, không gian thoáng đãng, yên tĩnh và riêng tư.</p>
+          <a href="tel:+84977600599" class="room-link">Liên hệ đặt phòng →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Services ===== -->
+<section class="services" id="services">
+  <div class="section-inner">
+    <p class="eyebrow center">Dịch Vụ</p>
+    <h2 class="center">Tiện Ích Tại Hoa Đô</h2>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-icon">🛎️</div>
+        <h3>Đặt Phòng Online</h3>
+        <p>Hỗ trợ đặt phòng và giữ chỗ nhanh chóng qua điện thoại.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">♨️</div>
+        <h3>Xông Hơi &amp; Massage</h3>
+        <p>Dịch vụ thư giãn giúp bạn phục hồi năng lượng sau hành trình.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🅿️</div>
+        <h3>Bãi Đỗ Xe</h3>
+        <p>Khu vực đỗ xe thuận tiện, an toàn cho khách lưu trú.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🛕</div>
+        <h3>Gần Điểm Tâm Linh</h3>
+        <p>Cách Đền Củi và Đền Ông Hoàng Mười không xa, thuận tiện tham quan.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🧹</div>
+        <h3>Phòng Sạch Sẽ</h3>
+        <p>Vệ sinh phòng thường xuyên, không gian nghỉ ngơi thoải mái.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💰</div>
+        <h3>Giá Bình Dân</h3>
+        <p>Chi phí hợp lý, phù hợp với khách du lịch và công tác.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Gallery ===== -->
+<section class="gallery" id="gallery">
+  <div class="section-inner">
+    <p class="eyebrow center">Thư Viện Ảnh</p>
+    <h2 class="center">Không Gian Khách Sạn Hoa Đô</h2>
+    <p class="section-desc center">Một số ảnh đang chờ được thay bằng ảnh thật — thêm ảnh vào thư mục <code>images/</code> để cập nhật tự động.</p>
+
+    <div class="gallery-grid">
+      <div class="photo" data-label="Toàn cảnh ban ngày">
+        <img class="photo-img" src="images/exterior-day.jpg" alt="Khách Sạn Hoa Đô ban ngày">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Khách sạn về đêm">
+        <img class="photo-img" src="images/exterior-night.jpg" alt="Khách Sạn Hoa Đô về đêm">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Bảng hiệu Hoa Đô Hotel">
+        <img class="photo-img" src="images/signboard.jpg" alt="Bảng hiệu Hoa Đô Hotel">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Sảnh lễ tân">
+        <img class="photo-img" src="images/lobby.jpg" alt="Sảnh lễ tân Khách Sạn Hoa Đô">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Không gian phòng khách">
+        <img class="photo-img" src="images/room-suite.jpg" alt="Không gian phòng khách Hoa Đô">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Phòng nghỉ 2 giường">
+        <img class="photo-img" src="images/room-twin1.jpg" alt="Phòng nghỉ 2 giường Hoa Đô">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Phòng giường đôi">
+        <img class="photo-img" src="images/room-double.jpg" alt="Phòng giường đôi Hoa Đô">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Phòng nghỉ đơn">
+        <img class="photo-img" src="images/room-single.jpg" alt="Phòng nghỉ đơn Hoa Đô">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+      <div class="photo" data-label="Lối vào & sân đỗ xe">
+        <img class="photo-img" src="images/driveway.jpg" alt="Lối vào Khách Sạn Hoa Đô">
+        <span class="ph-icon">🖼</span><span class="ph-label"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Location ===== -->
+<section class="location" id="location">
+  <div class="section-inner location-grid">
+    <div class="location-text">
+      <p class="eyebrow">Vị Trí</p>
+      <h2>Thuận Tiện Di Chuyển</h2>
+      <p>Khách Sạn Hoa Đô nằm tại Khối 1, Thị trấn Xuân An, Nghi Xuân, Hà Tĩnh — khu vực phục vụ gồm Nghi Xuân, TP. Vinh (Nghệ An) và trung tâm Hà Tĩnh.</p>
+      <ul class="location-points">
+        <li>📍 Khối 1, Thị trấn Xuân An, Nghi Xuân, Hà Tĩnh</li>
+        <li>🛕 Gần Đền Củi &amp; Đền Ông Hoàng Mười</li>
+        <li>🚗 Thuận tiện đến TP. Vinh, Nghệ An</li>
+      </ul>
+      <a href="https://www.google.com/maps/search/?api=1&query=Kh%C3%A1ch+s%E1%BA%A1n+Hoa+%C4%90%C3%B4%2C+Kh%E1%BB%91i+1%2C+Th%E1%BB%8B+tr%E1%BA%A5n+Xu%C3%A2n+An%2C+Nghi+Xu%C3%A2n%2C+H%C3%A0+T%C4%A9nh" target="_blank" rel="noopener" class="btn-outline">Xem Trên Google Maps</a>
+    </div>
+    <div class="location-media">
+      <iframe class="map-embed" title="Bản đồ Khách Sạn Hoa Đô" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Kh%C3%A1ch%20s%E1%BA%A1n%20Hoa%20%C4%90%C3%B4%2C%20Kh%E1%BB%91i%201%20Th%E1%BB%8B%20tr%E1%BA%A5n%20Xu%C3%A2n%20An%2C%20Nghi%20Xu%C3%A2n%2C%20H%C3%A0%20T%C4%A9nh&output=embed">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section class="contact" id="contact">
+  <div class="section-inner contact-grid">
+    <div class="contact-info">
+      <p class="eyebrow">Liên Hệ</p>
+      <h2>Đặt Phòng Ngay Hôm Nay</h2>
+      <p>Gọi điện hoặc gửi tin nhắn cho chúng tôi để được tư vấn và giữ phòng nhanh nhất.</p>
+      <ul class="contact-list">
+        <li>📍 Khối 1, Thị trấn Xuân An, Nghi Xuân, Hà Tĩnh, 45108</li>
+        <li>📞 <a href="tel:+84977600599">0977 600 599</a></li>
+        <li>📞 <a href="tel:+84979123775">0979 123 775</a></li>
+        <li>✉️ <a href="mailto:anhtinh6603@gmail.com">anhtinh6603@gmail.com</a></li>
+        <li>📘 <a href="https://www.facebook.com/profile.php?id=100083118018930" target="_blank" rel="noopener">Facebook Fanpage</a></li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <div class="cf-row">
+        <input type="text" id="cfName" placeholder="Họ và tên" required>
+        <input type="tel" id="cfPhone" placeholder="Số điện thoại" required>
+      </div>
+      <input type="text" id="cfSubject" placeholder="Tiêu đề" required>
+      <textarea id="cfMessage" rows="4" placeholder="Nội dung tin nhắn" required></textarea>
+      <button type="submit" class="cf-submit">Gửi Yêu Cầu</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="section-inner footer-grid">
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="logo-mark">HĐ</span>
+        <span class="logo-text">
+          <span class="logo-title">HOA ĐÔ</span>
+          <span class="logo-sub">HOTEL</span>
+        </span>
+      </div>
+      <p>Phòng nghỉ bình dân, gần Đền Củi, Đền Ông Hoàng Mười.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Liên Kết</h4>
+      <a href="#about">Giới Thiệu</a>
+      <a href="#rooms">Phòng Nghỉ</a>
+      <a href="#services">Dịch Vụ</a>
+      <a href="#gallery">Thư Viện Ảnh</a>
+    </div>
+    <div class="footer-col">
+      <h4>Liên Hệ</h4>
+      <p>Khối 1, Thị trấn Xuân An, Nghi Xuân, Hà Tĩnh</p>
+      <p>0977 600 599 · 0979 123 775</p>
+      <p>anhtinh6603@gmail.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Khách Sạn Hoa Đô. Đã đăng ký bản quyền.</p>
+  </div>
+</footer>
+
+<a href="tel:+84977600599" class="fab-call" aria-label="Gọi ngay">📞</a>
+
+<script src="script.js"></script>
+</body>
+</html>

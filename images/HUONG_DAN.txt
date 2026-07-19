@@ -1,0 +1,15 @@
+Thả ảnh thật của khách sạn vào thư mục này. Đặt tên đúng như dưới đây thì ảnh sẽ tự lên đúng vị trí trên web ngay,
+không cần tôi chỉnh code. Nếu bạn đặt tên khác cũng không sao, cứ thả vào rồi báo tôi, tôi sẽ tự khớp lại.
+
+exterior-day.jpg    -> Mặt tiền khách sạn ban ngày (dùng ở mục Giới thiệu + Thư viện ảnh)
+exterior-night.jpg  -> Mặt tiền khách sạn ban đêm, đèn neon (dùng làm ảnh nền Trang chủ + Thư viện ảnh)
+signboard.jpg       -> Bảng hiệu "HOA ĐÔ HOTEL" ngoài sân
+lobby.jpg           -> Quầy lễ tân
+room-suite.jpg      -> Phòng khách / khu sofa tiếp khách
+room-twin1.jpg      -> Phòng 2 giường (dùng cho Phòng Gia Đình)
+room-twin2.jpg      -> Phòng 2 giường kiểu khác (dùng cho Phòng Cao Cấp)
+room-double.jpg     -> Phòng 1 giường đôi (dùng cho Phòng Đôi)
+room-single.jpg     -> Phòng 1 giường đơn (dùng cho Phòng Đơn)
+driveway.jpg        -> Lối vào / sân đỗ xe
+
+Định dạng: .jpg hoặc .png đều được, chỉ cần đổi đuôi tương ứng trong index.html nếu khác .jpg.
