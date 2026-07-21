@@ -79,26 +79,54 @@ document.querySelectorAll('.stepper').forEach(stepper => {
   });
 });
 
-// ---------- Booking bar submit -> mo Zalo dat phong ----------
+// ---------- Booking bar submit -> cuon toi form dat phong ----------
 const bookingBar = document.getElementById('bookingBar');
 if (bookingBar) {
   bookingBar.addEventListener('submit', (e) => {
     e.preventDefault();
-    window.open('https://zalo.me/g/kcggzz594', '_blank', 'noopener');
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
   });
 }
 
-// ---------- Contact form -> mailto ----------
+// ---------- Contact form -> day sang Zalo ca nhan de xac nhan ----------
+const ZALO_PHONE = '84977600599'; // Zalo ca nhan Nguyen The Anh (dinh dang quoc te, khong dau +)
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
-  contactForm.addEventListener('submit', (e) => {
+  contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const name = document.getElementById('cfName').value;
-    const phone = document.getElementById('cfPhone').value;
-    const subject = document.getElementById('cfSubject').value;
-    const message = document.getElementById('cfMessage').value;
-    const body = `Họ tên: ${name}\nSĐT: ${phone}\n\n${message}`;
-    window.location.href = `mailto:anhtinh6603@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const name = document.getElementById('cfName').value.trim();
+    const phone = document.getElementById('cfPhone').value.trim();
+    const rooms = document.getElementById('cfRooms').value.trim();
+    const note = document.getElementById('cfMessage').value.trim();
+
+    if (!name || !phone || !rooms) return; // required, HTML5 validation da chan truoc do
+
+    const message =
+      `📋 YÊU CẦU ĐẶT PHÒNG - Khách Sạn Hoa Đô\n` +
+      `Họ tên: ${name}\n` +
+      `SĐT: ${phone}\n` +
+      `Số phòng cần đặt: ${rooms}` +
+      (note ? `\nGhi chú: ${note}` : '');
+
+    let copied = false;
+    try {
+      await navigator.clipboard.writeText(message);
+      copied = true;
+    } catch (err) {
+      copied = false;
+    }
+
+    window.open(`https://zalo.me/${ZALO_PHONE}`, '_blank', 'noopener');
+
+    const cfNote = document.getElementById('cfSentNote');
+    if (cfNote) {
+      cfNote.textContent = copied
+        ? 'Đã sao chép thông tin đặt phòng — vui lòng dán (Ctrl+V hoặc giữ để dán) vào khung chat Zalo vừa mở và bấm Gửi để chúng tôi xác nhận nhanh nhất.'
+        : `Đã mở Zalo — vui lòng nhắn lại thông tin: ${message}`;
+      cfNote.style.display = 'block';
+    }
+    contactForm.reset();
+    document.getElementById('cfRooms').value = 1;
   });
 }
 

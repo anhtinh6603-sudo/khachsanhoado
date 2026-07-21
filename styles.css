@@ -423,6 +423,15 @@ h2.center{text-align:center;margin-bottom:10px;}
   font-weight:700;
 }
 .cf-submit:hover{background:var(--maroon-dark);}
+.cf-sent-note{
+  background:#e8f5ee;
+  color:#1e6b45;
+  border:1px solid #bfe3cf;
+  border-radius:8px;
+  padding:12px 14px;
+  font-size:13px;
+  line-height:1.5;
+}
 
 @media (max-width:850px){
   .contact-grid{grid-template-columns:1fr;gap:30px;}
