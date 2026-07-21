@@ -79,12 +79,12 @@ document.querySelectorAll('.stepper').forEach(stepper => {
   });
 });
 
-// ---------- Booking bar submit -> jump to contact ----------
+// ---------- Booking bar submit -> mo Zalo dat phong ----------
 const bookingBar = document.getElementById('bookingBar');
 if (bookingBar) {
   bookingBar.addEventListener('submit', (e) => {
     e.preventDefault();
-    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    window.open('https://zalo.me/g/kcggzz594', '_blank', 'noopener');
   });
 }
 

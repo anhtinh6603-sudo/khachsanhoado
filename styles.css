@@ -471,6 +471,25 @@ h2.center{text-align:center;margin-bottom:10px;}
   100%{box-shadow:0 0 0 0 rgba(201,151,60,0);}
 }
 
+/* ---------- Floating Zalo button ---------- */
+.fab-zalo{
+  position:fixed;bottom:90px;right:24px;
+  width:56px;height:56px;
+  background:#0068ff;
+  color:#fff;
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:24px;
+  box-shadow:0 8px 20px rgba(0,0,0,.3);
+  z-index:90;
+  animation:pulse-zalo 2.2s infinite;
+}
+@keyframes pulse-zalo{
+  0%{box-shadow:0 0 0 0 rgba(0,104,255,.5);}
+  70%{box-shadow:0 0 0 14px rgba(0,104,255,0);}
+  100%{box-shadow:0 0 0 0 rgba(0,104,255,0);}
+}
+
 /* ---------- Responsive nav ---------- */
 @media (max-width:900px){
   .main-nav{
