@@ -143,3 +143,24 @@ if (contactForm) {
 // ---------- Footer year ----------
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+// ---------- Fab buttons: hien so dien thoai khi bam (quan trong tren may tinh, ---------
+// vi link tel:/zalo khong tu mo duoc gi neu may khong co san app goi dien) ----------
+function setupFabTooltip(btnId, tipId) {
+  const btn = document.getElementById(btnId);
+  const tip = document.getElementById(tipId);
+  if (!btn || !tip) return;
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.fab-tooltip.show').forEach(t => { if (t !== tip) t.classList.remove('show'); });
+    tip.classList.add('show');
+    clearTimeout(tip._hideTimer);
+    tip._hideTimer = setTimeout(() => tip.classList.remove('show'), 5000);
+  });
+}
+setupFabTooltip('fabCallBtn', 'fabCallTip');
+setupFabTooltip('fabZaloBtn', 'fabZaloTip');
+
+document.addEventListener('click', (e) => {
+  if (e.target.closest('.fab-wrap')) return;
+  document.querySelectorAll('.fab-tooltip.show').forEach(t => t.classList.remove('show'));
+});
