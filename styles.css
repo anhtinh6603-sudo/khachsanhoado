@@ -159,7 +159,7 @@ h2.center{text-align:center;margin-bottom:10px;}
   display:flex;align-items:center;justify-content:center;
   background:
     linear-gradient(160deg, rgba(59,31,20,.55), rgba(42,21,13,.85)),
-    url("images/exterior-night.jpg") center/cover no-repeat,
+    url("images/exterior-day.jpg") center/cover no-repeat,
     repeating-linear-gradient(45deg, #6b4b2c 0 20px, #5a3d24 20px 40px);
   color:var(--text-light);
   text-align:center;
