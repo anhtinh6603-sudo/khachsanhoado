@@ -88,8 +88,8 @@ if (bookingBar) {
   });
 }
 
-// ---------- Contact form -> day sang Zalo ca nhan de xac nhan ----------
-const ZALO_PHONE = '84977600599'; // Zalo ca nhan Nguyen The Anh (dinh dang quoc te, khong dau +)
+// ---------- Contact form -> gui tuc thi qua API (Telegram), khong can khach thao tac them ----------
+const ZALO_PHONE = '84977600599'; // du phong: dung khi API loi
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   contactForm.addEventListener('submit', async (e) => {
@@ -98,35 +98,45 @@ if (contactForm) {
     const phone = document.getElementById('cfPhone').value.trim();
     const rooms = document.getElementById('cfRooms').value.trim();
     const note = document.getElementById('cfMessage').value.trim();
+    const cfNote = document.getElementById('cfSentNote');
+    const submitBtn = contactForm.querySelector('.cf-submit');
 
     if (!name || !phone || !rooms) return; // required, HTML5 validation da chan truoc do
 
-    const message =
-      `📋 YÊU CẦU ĐẶT PHÒNG - Khách Sạn Hoa Đô\n` +
-      `Họ tên: ${name}\n` +
-      `SĐT: ${phone}\n` +
-      `Số phòng cần đặt: ${rooms}` +
-      (note ? `\nGhi chú: ${note}` : '');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Đang gửi...';
 
-    let copied = false;
     try {
-      await navigator.clipboard.writeText(message);
-      copied = true;
+      const res = await fetch('/api/booking', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, phone, rooms, note }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.ok) throw new Error(data.error || 'Gui that bai');
+
+      if (cfNote) {
+        cfNote.textContent = '✅ Đã gửi yêu cầu đặt phòng thành công! Khách sạn sẽ liên hệ lại với bạn trong thời gian sớm nhất.';
+        cfNote.style.display = 'block';
+      }
+      contactForm.reset();
+      document.getElementById('cfRooms').value = 1;
     } catch (err) {
-      copied = false;
+      // Du phong: neu API loi (vd server chua cau hinh xong), mo Zalo ca nhan de khach van gui duoc
+      const message =
+        `📋 YÊU CẦU ĐẶT PHÒNG - Khách Sạn Hoa Đô\n` +
+        `Họ tên: ${name}\nSĐT: ${phone}\nSố phòng cần đặt: ${rooms}` +
+        (note ? `\nGhi chú: ${note}` : '');
+      try { await navigator.clipboard.writeText(message); } catch (e2) {}
+      window.open(`https://zalo.me/${ZALO_PHONE}`, '_blank', 'noopener');
+      if (cfNote) {
+        cfNote.textContent = 'Hệ thống đang bận — đã sao chép thông tin, vui lòng dán (Ctrl+V) vào Zalo vừa mở và bấm Gửi giúp chúng tôi.';
+        cfNote.style.display = 'block';
+      }
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Gửi Yêu Cầu Đặt Phòng';
     }
-
-    window.open(`https://zalo.me/${ZALO_PHONE}`, '_blank', 'noopener');
-
-    const cfNote = document.getElementById('cfSentNote');
-    if (cfNote) {
-      cfNote.textContent = copied
-        ? 'Đã sao chép thông tin đặt phòng — vui lòng dán (Ctrl+V hoặc giữ để dán) vào khung chat Zalo vừa mở và bấm Gửi để chúng tôi xác nhận nhanh nhất.'
-        : `Đã mở Zalo — vui lòng nhắn lại thông tin: ${message}`;
-      cfNote.style.display = 'block';
-    }
-    contactForm.reset();
-    document.getElementById('cfRooms').value = 1;
   });
 }
 
