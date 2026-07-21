@@ -1,0 +1,4 @@
+.vercel
+.env*
+video-export/
+facebook-config.json

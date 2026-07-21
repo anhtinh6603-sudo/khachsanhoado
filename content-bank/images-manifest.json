@@ -1,0 +1,496 @@
+{
+  "generated_at": "2026-07-21",
+  "source_folder": "images/",
+  "total_images": 57,
+  "note": "Đây là ảnh do khách sạn Hoa Đô tự chụp (nội thất, ngoại thất, phòng nghỉ). KHÔNG có ảnh chụp trực tiếp các điểm đến (Đền Củi, khu mộ Nguyễn Du, biển Xuân Thành...) — khi viết bài về điểm đến, dùng ảnh mục 'mat-tien'/'phong-nghi' làm ảnh minh họa khách sạn kèm bài, hoặc cần bổ sung ảnh điểm đến riêng.",
+  "categories": {
+    "Khuôn viên / lối vào / bãi đỗ xe": {
+      "slug": "xung-quanh",
+      "count": 3,
+      "files": [
+        "6115989522513334137.jpg",
+        "710799392_980599231387335_5662291945321258476_n.jpg",
+        "driveway.jpg"
+      ]
+    },
+    "Chưa phân loại chi tiết (cần xem lại từng ảnh)": {
+      "slug": "chua-phan-loai",
+      "count": 32,
+      "files": [
+        "6115989522513334138.jpg",
+        "6115989522513334139.jpg",
+        "6115989522513334140.jpg",
+        "6115989522513334141.jpg",
+        "6115989522513334142.jpg",
+        "6115989522513334143.jpg",
+        "6115989522513334144.jpg",
+        "6115989522513334145.jpg",
+        "6115989522513334147.jpg",
+        "6115989522513334148.jpg",
+        "6115989522513334149.jpg",
+        "6115989522513334153.jpg",
+        "6115989522513334155.jpg",
+        "6115989522513334156.jpg",
+        "6115989522513334158.jpg",
+        "6115989522513334159.jpg",
+        "6115989522513334165.jpg",
+        "6115989522513334166.jpg",
+        "6115989522513334168.jpg",
+        "6115989522513334169.jpg",
+        "6115989522513334171.jpg",
+        "6115989522513334174.jpg",
+        "6115989522513334175.jpg",
+        "6115989522513334176.jpg",
+        "6115989522513334177.jpg",
+        "6115989522513334178.jpg",
+        "6115989522513334180.jpg",
+        "6115989522513334182.jpg",
+        "6115989522513334183.jpg",
+        "6115989522513334184.jpg",
+        "6115989522513334186.jpg",
+        "6115989522513334188.jpg"
+      ]
+    },
+    "Phòng nghỉ": {
+      "slug": "phong-nghi",
+      "count": 9,
+      "files": [
+        "6115989522513334150.jpg",
+        "6115989522513334160.jpg",
+        "6115989522513334189.jpg",
+        "719626348_988570623923529_5808086679612573809_n.jpg",
+        "room-double.jpg",
+        "room-single.jpg",
+        "room-suite.jpg",
+        "room-twin1.jpg",
+        "room-twin2.jpg"
+      ]
+    },
+    "Mặt tiền / ngoại thất / bảng hiệu": {
+      "slug": "mat-tien",
+      "count": 10,
+      "files": [
+        "702589525_972297982217460_2085104610385242176_n.jpg",
+        "707523248_976880571759201_2330752178086065091_n.jpg",
+        "709246300_979294578184467_4616584904658004641_n.jpg",
+        "710078524_985511697562755_5216747687237779271_n.jpg",
+        "717167961_990677560379502_5605404459670996325_n.jpg",
+        "719532429_987748617339063_2517863311974385968_n.jpg",
+        "720647779_988960447217880_1141570396804434581_n.jpg",
+        "exterior-day.jpg",
+        "exterior-night.jpg",
+        "signboard.jpg"
+      ]
+    },
+    "Không gian chung (sảnh, lễ tân)": {
+      "slug": "noi-that-chung",
+      "count": 3,
+      "files": [
+        "707522599_976727988441126_5698585564925692091_n.jpg",
+        "717428295_987310860716172_269706826580110922_n.jpg",
+        "lobby.jpg"
+      ]
+    }
+  },
+  "images": [
+    {
+      "file": "6115989522513334137.jpg",
+      "path": "images/6115989522513334137.jpg",
+      "label": "Sân đỗ xe khách sạn",
+      "category": "xung-quanh",
+      "reviewed": true
+    },
+    {
+      "file": "6115989522513334138.jpg",
+      "path": "images/6115989522513334138.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334139.jpg",
+      "path": "images/6115989522513334139.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334140.jpg",
+      "path": "images/6115989522513334140.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334141.jpg",
+      "path": "images/6115989522513334141.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334142.jpg",
+      "path": "images/6115989522513334142.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334143.jpg",
+      "path": "images/6115989522513334143.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334144.jpg",
+      "path": "images/6115989522513334144.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334145.jpg",
+      "path": "images/6115989522513334145.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334147.jpg",
+      "path": "images/6115989522513334147.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334148.jpg",
+      "path": "images/6115989522513334148.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334149.jpg",
+      "path": "images/6115989522513334149.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334150.jpg",
+      "path": "images/6115989522513334150.jpg",
+      "label": "Phòng giường đôi",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "6115989522513334153.jpg",
+      "path": "images/6115989522513334153.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334155.jpg",
+      "path": "images/6115989522513334155.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334156.jpg",
+      "path": "images/6115989522513334156.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334158.jpg",
+      "path": "images/6115989522513334158.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334159.jpg",
+      "path": "images/6115989522513334159.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334160.jpg",
+      "path": "images/6115989522513334160.jpg",
+      "label": "Góc nghỉ trong phòng",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "6115989522513334165.jpg",
+      "path": "images/6115989522513334165.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334166.jpg",
+      "path": "images/6115989522513334166.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334168.jpg",
+      "path": "images/6115989522513334168.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334169.jpg",
+      "path": "images/6115989522513334169.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334171.jpg",
+      "path": "images/6115989522513334171.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334174.jpg",
+      "path": "images/6115989522513334174.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334175.jpg",
+      "path": "images/6115989522513334175.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334176.jpg",
+      "path": "images/6115989522513334176.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334177.jpg",
+      "path": "images/6115989522513334177.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334178.jpg",
+      "path": "images/6115989522513334178.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334180.jpg",
+      "path": "images/6115989522513334180.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334182.jpg",
+      "path": "images/6115989522513334182.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334183.jpg",
+      "path": "images/6115989522513334183.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334184.jpg",
+      "path": "images/6115989522513334184.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334186.jpg",
+      "path": "images/6115989522513334186.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334188.jpg",
+      "path": "images/6115989522513334188.jpg",
+      "label": "Không gian thực tế Hoa Đô Hotel",
+      "category": "chua-phan-loai",
+      "reviewed": false
+    },
+    {
+      "file": "6115989522513334189.jpg",
+      "path": "images/6115989522513334189.jpg",
+      "label": "Phòng nghỉ 2 giường",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "702589525_972297982217460_2085104610385242176_n.jpg",
+      "path": "images/702589525_972297982217460_2085104610385242176_n.jpg",
+      "label": "Toàn cảnh khách sạn ban ngày",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "707522599_976727988441126_5698585564925692091_n.jpg",
+      "path": "images/707522599_976727988441126_5698585564925692091_n.jpg",
+      "label": "Không gian lễ tân",
+      "category": "noi-that-chung",
+      "reviewed": true
+    },
+    {
+      "file": "707523248_976880571759201_2330752178086065091_n.jpg",
+      "path": "images/707523248_976880571759201_2330752178086065091_n.jpg",
+      "label": "Toàn cảnh khách sạn",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "709246300_979294578184467_4616584904658004641_n.jpg",
+      "path": "images/709246300_979294578184467_4616584904658004641_n.jpg",
+      "label": "Bảng hiệu về đêm",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "710078524_985511697562755_5216747687237779271_n.jpg",
+      "path": "images/710078524_985511697562755_5216747687237779271_n.jpg",
+      "label": "Biển hiệu Hoa Đô về đêm",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "710799392_980599231387335_5662291945321258476_n.jpg",
+      "path": "images/710799392_980599231387335_5662291945321258476_n.jpg",
+      "label": "Lối vào khách sạn",
+      "category": "xung-quanh",
+      "reviewed": true
+    },
+    {
+      "file": "717167961_990677560379502_5605404459670996325_n.jpg",
+      "path": "images/717167961_990677560379502_5605404459670996325_n.jpg",
+      "label": "Mặt tiền khách sạn",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "717428295_987310860716172_269706826580110922_n.jpg",
+      "path": "images/717428295_987310860716172_269706826580110922_n.jpg",
+      "label": "Sảnh lễ tân",
+      "category": "noi-that-chung",
+      "reviewed": true
+    },
+    {
+      "file": "719532429_987748617339063_2517863311974385968_n.jpg",
+      "path": "images/719532429_987748617339063_2517863311974385968_n.jpg",
+      "label": "Toàn cảnh khách sạn",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "719626348_988570623923529_5808086679612573809_n.jpg",
+      "path": "images/719626348_988570623923529_5808086679612573809_n.jpg",
+      "label": "Phòng nghỉ 2 giường",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "720647779_988960447217880_1141570396804434581_n.jpg",
+      "path": "images/720647779_988960447217880_1141570396804434581_n.jpg",
+      "label": "Toàn cảnh khách sạn",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "driveway.jpg",
+      "path": "images/driveway.jpg",
+      "label": "Lối vào & sân đỗ xe",
+      "category": "xung-quanh",
+      "reviewed": true
+    },
+    {
+      "file": "exterior-day.jpg",
+      "path": "images/exterior-day.jpg",
+      "label": "Toàn cảnh ban ngày",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "exterior-night.jpg",
+      "path": "images/exterior-night.jpg",
+      "label": "Khách sạn về đêm",
+      "category": "mat-tien",
+      "reviewed": true
+    },
+    {
+      "file": "lobby.jpg",
+      "path": "images/lobby.jpg",
+      "label": "Sảnh lễ tân",
+      "category": "noi-that-chung",
+      "reviewed": true
+    },
+    {
+      "file": "room-double.jpg",
+      "path": "images/room-double.jpg",
+      "label": "Phòng giường đôi",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "room-single.jpg",
+      "path": "images/room-single.jpg",
+      "label": "Phòng nghỉ đơn",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "room-suite.jpg",
+      "path": "images/room-suite.jpg",
+      "label": "Không gian phòng khách",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "room-twin1.jpg",
+      "path": "images/room-twin1.jpg",
+      "label": "Phòng nghỉ 2 giường",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "room-twin2.jpg",
+      "path": "images/room-twin2.jpg",
+      "label": "Phòng nghỉ 2 giường (kiểu khác)",
+      "category": "phong-nghi",
+      "reviewed": true
+    },
+    {
+      "file": "signboard.jpg",
+      "path": "images/signboard.jpg",
+      "label": "Bảng hiệu Hoa Đô Hotel",
+      "category": "mat-tien",
+      "reviewed": true
+    }
+  ]
+}

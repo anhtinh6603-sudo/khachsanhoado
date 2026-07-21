@@ -302,6 +302,75 @@ h2.center{text-align:center;margin-bottom:10px;}
   .gallery-grid{grid-template-columns:repeat(2,1fr);}
 }
 
+/* ---------- Blog / Điểm Đến ---------- */
+.blog{background:var(--cream-alt);}
+.blog-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;}
+.blog-card{
+  grid-column:1 / -1;
+  display:flex;
+  gap:24px;
+  background:#fff;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:30px;
+  align-items:flex-start;
+}
+.blog-card-icon{
+  flex-shrink:0;
+  width:64px;height:64px;
+  border-radius:50%;
+  background:var(--cream-alt);
+  display:flex;align-items:center;justify-content:center;
+  font-size:30px;
+}
+.blog-card-tag{
+  color:var(--gold);
+  font-weight:700;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  font-size:12px;
+  margin-bottom:6px;
+}
+.blog-card-body h3{font-size:20px;margin-bottom:10px;line-height:1.35;}
+.blog-card-body p{color:var(--text-dim);font-size:14px;margin-bottom:14px;}
+
+@media (max-width:600px){
+  .blog-card{flex-direction:column;padding:22px;}
+}
+
+/* ---------- Article page ---------- */
+.article-hero{
+  background:
+    linear-gradient(160deg, rgba(59,31,20,.75), rgba(42,21,13,.9)),
+    url("images/exterior-night.jpg") center/cover no-repeat;
+  color:var(--text-light);
+  text-align:center;
+  padding:80px 20px 60px;
+}
+.article-hero .eyebrow{color:var(--gold-light);}
+.article-hero h1{font-size:38px;max-width:800px;margin:0 auto 14px;}
+.article-hero .article-meta{color:#e9ddc9;font-size:14px;}
+
+.article-body{max-width:760px;margin:0 auto;padding:70px 24px;}
+.article-body p{color:var(--text-dark);margin-bottom:18px;font-size:16px;line-height:1.8;}
+.article-body h2{font-size:24px;margin:36px 0 14px;color:var(--maroon);}
+.article-body ul{margin:0 0 18px;display:flex;flex-direction:column;gap:8px;}
+.article-body ul li{font-size:15px;color:var(--text-dark);padding-left:4px;}
+
+.article-cta{
+  margin-top:20px;
+  background:var(--cream-alt);
+  border-radius:var(--radius);
+  padding:28px;
+  text-align:center;
+}
+.article-cta h3{font-size:20px;margin-bottom:10px;}
+.article-cta p{color:var(--text-dim);margin-bottom:0 !important;}
+.article-cta .btn-outline{margin-top:18px;}
+
+.article-back{display:inline-block;margin-bottom:24px;font-weight:600;font-size:14px;color:var(--maroon);}
+.article-back:hover{color:var(--gold);}
+
 /* ---------- Location ---------- */
 .location-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
 .location-text h2{font-size:30px;margin-bottom:16px;}
